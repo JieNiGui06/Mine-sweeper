@@ -1,0 +1,50 @@
+﻿<Window x:Class="扫雷.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:扫雷"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="646" Width="583">
+
+    <Grid x:Name="ft">
+        <Grid.Background>
+            <RadialGradientBrush>
+                <GradientStop Color="White" Offset="0.333"/>
+                <GradientStop Color="#FF00DBD5" Offset="0.697"/>
+                <GradientStop Color="#FF0FEB9D" Offset="1"/>
+            </RadialGradientBrush>
+        </Grid.Background>
+        <Grid x:Name="ft1" HorizontalAlignment="Center" Height="400" VerticalAlignment="Top" Width="400" Margin="0,159,0,0" Opacity="0.7">
+            <Grid.Background>
+                <RadialGradientBrush GradientOrigin="0.5,0.5" Center="0.9,0.6" RadiusX="1.1" RadiusY="0.8">
+                    <GradientStop Color="#FF00FF47" Offset="0.231"/>
+                    <GradientStop Color="#FF00D1FF" Offset="0"/>
+                    <GradientStop Color="#FFDCE1FF" Offset="1"/>
+                </RadialGradientBrush>
+            </Grid.Background>
+            <Border BorderBrush="Black" BorderThickness="1"/>
+        </Grid>
+        <Button x:Name="restartbtn" Content=": )" HorizontalAlignment="Center" Height="54" Margin="0,65,0,0" VerticalAlignment="Top" Width="53" RenderTransformOrigin="0.5,0.5" FontSize="36" Click="restartbtn_Click">
+            <Button.Background>
+                <RadialGradientBrush>
+                    <GradientStop Color="#FFFFE600" Offset="0"/>
+                    <GradientStop Color="#FFFCE405" Offset="0.346"/>
+                    <GradientStop Color="#FEEDDA2B" Offset="0.859"/>
+                    <GradientStop Color="#FE93D77B" Offset="1"/>
+                </RadialGradientBrush>
+            </Button.Background>
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Label x:Name="timelab" Content="00:00:00" HorizontalAlignment="Center" Height="25" Margin="0,123,0,0" VerticalAlignment="Top" Width="127" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="lnumlab" Content="40" HorizontalAlignment="Center" Height="37" Margin="0,24,0,0" VerticalAlignment="Top" Width="69" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" FontSize="24" Foreground="#A5FF0000"/>
+
+    </Grid>
+</Window>

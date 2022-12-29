@@ -1,0 +1,17 @@
+F:\QQ个人空间\扫雷\bin\Debug\扫雷.exe.config
+F:\QQ个人空间\扫雷\bin\Debug\扫雷.exe
+F:\QQ个人空间\扫雷\bin\Debug\扫雷.pdb
+F:\QQ个人空间\扫雷\obj\Debug\扫雷.csproj.AssemblyReference.cache
+F:\QQ个人空间\扫雷\obj\Debug\扫雷.csproj.SuggestedBindingRedirects.cache
+F:\QQ个人空间\扫雷\obj\Debug\MainWindow.g.cs
+F:\QQ个人空间\扫雷\obj\Debug\App.g.cs
+F:\QQ个人空间\扫雷\obj\Debug\扫雷_MarkupCompile.cache
+F:\QQ个人空间\扫雷\obj\Debug\扫雷_MarkupCompile.lref
+F:\QQ个人空间\扫雷\obj\Debug\MainWindow.baml
+F:\QQ个人空间\扫雷\obj\Debug\扫雷.g.resources
+F:\QQ个人空间\扫雷\obj\Debug\扫雷.Properties.Resources.resources
+F:\QQ个人空间\扫雷\obj\Debug\扫雷.csproj.GenerateResource.cache
+F:\QQ个人空间\扫雷\obj\Debug\扫雷.csproj.CoreCompileInputs.cache
+F:\QQ个人空间\扫雷\obj\Debug\扫雷.exe
+F:\QQ个人空间\扫雷\obj\Debug\扫雷.pdb
+F:\QQ个人空间\扫雷\obj\Debug\App.baml
